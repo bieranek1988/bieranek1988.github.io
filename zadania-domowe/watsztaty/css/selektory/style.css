@@ -1,0 +1,77 @@
+/* selektor znacznika */
+
+p {
+    color: orange;
+}
+
+/* selektor id */
+
+#id-text {
+    color: blue;
+    font-size: 22px;
+
+}
+
+.link,
+span,
+#title {
+    background-color: yellow;
+    color: green;
+
+}
+
+/* selektor - potomek bezposredni*/
+
+#potomek bezposredni p {
+    color: chartreuse;
+}
+
+
+/* selektor wszystkich elementow */
+
+#lista a {
+    font-weight: bold;
+
+}
+
+#lista2 li:nth-child(2) {
+    color: blueviolet;
+    font-size: 20px;
+}
+
+#lista3 li:nth-child(3n) {
+    color: blueviolet;
+    font-size: 20px;
+
+}
+
+#lista4 li:nth-child(3n+4) {
+    color: blueviolet;
+    font-size: 20px;
+}
+
+/* selektor bliskiego rodzenstwa */
+
+header h2 + h3 {
+    color: red;
+}
+
+/* selektor rodzenstwa */
+
+section h2 ~ h3 {
+    color: darkorange;
+}
+
+/* selektor wykluczający */
+
+ul li:not(.last-item) {
+    color: coral;
+
+}
+
+/* selektor atrybutu */
+
+li a[href="http://google.pl"] {
+    background-color: darkblue;
+    color: white;
+}
