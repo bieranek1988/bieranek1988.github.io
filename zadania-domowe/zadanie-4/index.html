@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+    
+    
+</head>
+
+<body>
+<form action="https://formspree.io/kamil.bieranowski.1988@wp.pl" method="post">
+  
+  <h3>A Simple Form</h3>
+  <em>Form Fundamentals</em>
+   
+    <fieldset>
+
+        <legend><strong>Customer Info:</strong></legend>
+
+        <label for="imie"><strong>Name:</strong></label>
+        <input type="text" name="imie"  id="imie" required="required" placeholder="Enter your Name" autofocus="on"><br/>
+        
+        <label for="telefon"><strong>Telephone:</strong></label>
+        <input type="text" name="telefon" id="telefon" required="required" placeholder="Pattem: 1-234-567-8910"><br/>
+        
+        <label for="email"><strong>Email address:</strong></label>
+        <input type="email" name="email" id="email" required="required" placeholder="Enter your email address"><br/>
+
+    </fieldset>
+
+
+    <fieldset>
+
+        <legend><strong>Books:</strong></legend>
+        
+        <select name="books">
+          <option value="book1">book-1</option>
+          <option value="book2">book-2</option>
+          <option value="book3">book-3</option>
+          <option value="book4">book-4</option>
+          <option value="book5">book-5</option>
+        </select>
+
+
+        <label for="quantiti"><strong>Quantiti (Maximum 5):</strong></label>
+        
+        <input type="number" cols="30" rows="10" class="form-control small quantily" name="quantily" min="1" max="5" value="1">
+        
+    
+    </fieldset>
+    
+    <input type="submit" value="Send">
+    
+
+
+    </form>
+
+</body>
+
+</html>
