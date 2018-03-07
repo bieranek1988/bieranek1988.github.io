@@ -13,11 +13,14 @@
 
     <form action="https://formspree.io/kamil.bieranowski.1988@wp.pl" method="post">
         <label for="firstname">Imię:</label><br>
-        <input type="text" name="name" id="firstname"><br>
+        <input type="text" name="fistname" id="firstname"><br>
+        
         <label for="surname">Nazwisko:</label><br>
         <input type="text" name="surname" id="surname"><br>
+        
         <label for="e-mail">e-mail:</label><br>
         <input type="text" name="e-mail" id="e-mail"><br>
+        
         <label for="phone-number">Telefon:</label><br>
         <input type="text" name="phone-number" id="phone-number"><br>
 
@@ -29,19 +32,28 @@
         <option value="city">Kraków:</option>
         <option value="city">Warszawa:</option>
         <option value="city">Gdańsk:</option>
-    </select><br>
+        </select><br>
 
-        <label for="gender">Płeć:</label><br>
-        <label for="gender">Kobieta:</label>
-        <input type="radio" name="gender" value="female" id="gender">
-        <label for="gender">Mężczyzna:</label>
-        <input type="radio" name="gender" value="male"><br>
+        <label for="gender">Płeć:</label><br/>
 
-        <input type="checkbox" name="consent" value="consent">
-        <label for="message">Wyrażam zgodę na przetwarzanie danych osobowych.</label>
+        <input type="radio" name="gender" id="woman" value="woman">
+        <label for="woman">Kobieta:</label><br/>
+
+        <input type="radio" name="gender" id="men" value="men">
+        <label for="men">Mężczyzna:</label><br/>
+
+
+
+
+        
+       
 
         <label for="message">Wiadomość:</label><br>
         <textarea name="<message>" id="message" cols="30" rows="10"></textarea><br>
+        
+        <input type="checkbox" name="consent" value="yes" id="consent">
+        <label for="consent">Wyrażam zgodę na przetwarzanie danych osobowych.</label><br/>
+        
         <input type="submit" value="Wyślij">
 
 
