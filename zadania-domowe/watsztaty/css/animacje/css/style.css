@@ -1,0 +1,35 @@
+
+.rotate img {
+    transform: rotate(35deg);
+    transform-origin: 0%, 0%;
+}
+
+.translate img {
+    transform: (150px, 300px);
+}
+.scale img {
+    transform: scale(0.3);
+}
+
+/* animacja */
+
+@keyframes resize {
+    0% {
+        height: 300px;
+        
+    }
+    50% {
+        height: 50px;
+    }
+    100% {
+        height: 300px;
+    }
+}
+
+.animation img {
+    animation-name: resize;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    
+    
+}
